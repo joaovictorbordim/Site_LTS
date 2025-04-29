@@ -52,6 +52,16 @@
   --contrast-color: #ffffff;
 }
 
+/* whatsapp-float */
+.whatsapp-float {
+  position: fixed;
+  width: 115px;
+  height: 49px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -1114,10 +1124,9 @@ section,
 
 .clients .client-logo img {
   padding: 20px 40px;
-  max-width: 90%;
-  transition: 0.3s;
+  max-width: 120%;
+  transition: 0.2s;
   opacity: 0.5;
-  filter: grayscale(100);
 }
 
 .clients .client-logo img:hover {
